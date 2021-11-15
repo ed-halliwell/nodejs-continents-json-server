@@ -14,7 +14,7 @@ interface Continent {
     };
     /** Number between 0-100 */
     pctOfTotal: number;
-  }
+  };
 }
 
 export const ASIA: Continent = {
@@ -22,13 +22,13 @@ export const ASIA: Continent = {
   area: {
     sqKm: 44_614_000,
     sqMiles: 17_226_000,
-    pctOfTotal: 29.8
+    pctOfTotal: 29.8,
   },
   highestPoint: "Mount Everest",
   population: {
     people: { count: 4.6, unit: "billion" },
-    pctOfTotal: 60
-  }
+    pctOfTotal: 60,
+  },
 };
 
 export const OCEANIA: Continent = {
@@ -42,5 +42,72 @@ export const OCEANIA: Continent = {
   population: {
     people: { count: 42, unit: "million" },
     pctOfTotal: 0.54,
+  },
+};
+
+export const AFRICA: Continent = {
+  name: "Africa",
+  area: {
+    sqKm: 0,
+    sqMiles: 0,
+    pctOfTotal: 0,
+  },
+  highestPoint: "Somewhere",
+  population: {
+    people: { count: 0, unit: "million" },
+    pctOfTotal: 0,
+  },
+};
+
+export const ANTARCTICA: Continent = {
+  name: "Antarctica",
+  area: {
+    sqKm: 0,
+    sqMiles: 0,
+    pctOfTotal: 0,
+  },
+  highestPoint: "Somewhere",
+  population: {
+    people: { count: 0, unit: "million" },
+    pctOfTotal: 0,
+  },
+};
+export const EUROPE: Continent = {
+  name: "Europe",
+  area: {
+    sqKm: 0,
+    sqMiles: 0,
+    pctOfTotal: 0,
+  },
+  highestPoint: "Somewhere",
+  population: {
+    people: { count: 0, unit: "million" },
+    pctOfTotal: 0,
+  },
+};
+export const NORTH_AMERICA: Continent = {
+  name: "North America",
+  area: {
+    sqKm: 0,
+    sqMiles: 0,
+    pctOfTotal: 0,
+  },
+  highestPoint: "Somewhere",
+  population: {
+    people: { count: 0, unit: "million" },
+    pctOfTotal: 0,
+  },
+};
+export const SOUTH_AMERICA: Continent = {
+  name: "South America",
+  area: {
+    sqKm: 0,
+    sqMiles: 0,
+    pctOfTotal: 0,
+  },
+  highestPoint: "Somewhere",
+  population: {
+    people: { count: 0, unit: "million" },
+    pctOfTotal: 0,
   },
 };
